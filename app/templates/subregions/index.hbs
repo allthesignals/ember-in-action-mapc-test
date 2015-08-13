@@ -1,0 +1,9 @@
+  {{#each model as |subregion|}}
+    <li>
+
+     {{subregion.name}}
+     {{map-component geojson=subregion.geojson}}
+
+    </li>
+  {{/each}}
+{{!-- {{outlet}} --}}

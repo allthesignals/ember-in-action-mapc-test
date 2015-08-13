@@ -1,0 +1,9 @@
+  {{#each model as |municipality|}}
+    <li>
+
+     {{municipality.name}}
+     {{map-component geojson=municipality.geojson}}
+
+    </li>
+  {{/each}}
+{{!-- {{outlet}} --}}

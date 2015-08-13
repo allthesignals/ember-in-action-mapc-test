@@ -1,10 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
-
-  perPage: 9,
-
   model: function(params) {
-    return this.store.find('project', params.project_id);
+    return this.store.find('subregion', params.subregion_id);
   }
 });
