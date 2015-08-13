@@ -1,8 +1,8 @@
 import Ember from 'ember';
 
-export default Ember.View.extend({
-  templateName: 'project',
-  name: "Project",
+export default Ember.Component.extend({
+  // templateName: 'project',
+  // name: "Project",
   click: function(evt) {
     console.log(L);
     console.log(evt);
