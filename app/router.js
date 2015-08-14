@@ -18,4 +18,5 @@ export default Router.map(function() {
   this.route('subregion');
   this.route('municipalities', function() {});
   this.route('subregions', function() {});
+  this.route('place');
 });

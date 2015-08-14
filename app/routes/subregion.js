@@ -2,6 +2,6 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
   model: function(params) {
-    return this.store.find('subregion', params.subregion_id);
+    return this.store.findAll('subregion', params.subregion_id);
   }
 });
